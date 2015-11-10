@@ -5,7 +5,7 @@ by Ryan, 2015
 URL: http://www.ryadel.com/
 
 # What does it do
-It turns a directory tree structure like this:
+It fetches a directory tree structure like this:
 
 ```
 /images/
@@ -21,7 +21,7 @@ It turns a directory tree structure like this:
     readme.md
 ```
 
-into a JSON object like this:
+and outputs it into a JSON object like this:
 
 ```
 {
