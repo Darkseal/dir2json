@@ -21,7 +21,7 @@ It fetches a directory tree structure like this:
     readme.md
 ```
 
-and outputs it into a JSON object like this:
+and outputs its contents into a json-formatted file like this:
 
 ```
 {
