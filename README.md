@@ -43,9 +43,17 @@ and outputs its contents into a json-formatted file like this:
 
 It can be very useful when working with Javascript frameworks and/or similar scenarios where you need to load/browse/show a directory structure without being allowed to access the system IO.
 
-The code it's meant to be used as a dedicated CLI script, but you can also execute it from a standard, web-hosted PHP page by populating the $argv[] array directly from code.
+
+# General rules
+* If a folder contains only files (without subfolders), they will be listed as items of a single array.
+* If a folder contains one or more subfolders, each one will be listed as a key/value array.
+* If a folder contains files and subfolders, both will be listed as a key/value array: each file will have an auto-generated numeric key starting from 0 (numbers already used by a subfolder's name will be skipped).
+
 
 # Usage (from CLI)
+The code it's meant to be used as a dedicated CLI script, but you can also execute it from a standard, web-hosted PHP page by populating the $argv[] array directly from code. If you need further help to implement it into a PHP page, contact me and I'll update the docs accordingly.
+
+
 ```
  > php dir2json <targetFolder> <outputFile> [JSON_OPTIONS]
 ```
