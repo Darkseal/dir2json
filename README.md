@@ -27,11 +27,11 @@ and outputs its contents into a json-formatted file like this:
 {
     "gif": [
       "man.gif",
-      "woman.gif",
+      "woman.gif"
       ],
     "jpg": [
       "photo1.jpg",
-      "photo2.jpg",
+      "photo2.jpg"
       ],
     "png": [
       "avatar.png"
