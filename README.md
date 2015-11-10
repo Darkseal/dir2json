@@ -43,9 +43,6 @@ and outputs its contents into a json-formatted file like this:
 
 It can be very useful when working with Javascript frameworks and/or similar scenarios where you need to load/browse/show a directory structure without being allowed to access the system IO.
 
-The code it's meant to be used as a dedicated CLI script (see **Usage** section below), but you can also execute it from a standard, web-hosted PHP page by populating the $argv[] array directly from code. If you need further help to implement it into a PHP page, contact me and I'll update the docs accordingly.
-
-
 ## Conversion rules
 The generated JSON object will adopt the following conventions:
 * If a folder contains only files (without subfolders), they will be listed as items of a single array.
@@ -54,6 +51,8 @@ The generated JSON object will adopt the following conventions:
 
 
 ## Usage
+The code it's meant to be used as a dedicated CLI script, but you can also execute it from a standard, web-hosted PHP page by populating the $argv[] array directly from code. If you need further help to implement it into a PHP page, contact me and I'll update the docs accordingly.
+
 ### From CLI
 
 ```
