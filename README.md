@@ -44,6 +44,9 @@ and outputs its contents into a json-formatted file like this:
 It can be very useful when working with Javascript frameworks and/or similar scenarios where you need to load/browse/show a directory structure without being allowed to access the system IO.
 
 ## Conversion rules
+The json conversion is handled by the native php `json_encode` function (available in PHP 5 >= 5.2.0, PECL json >= 1.2.0, PHP 7). For further info on PHP's json_encode function, read here:
+http://php.net/manual/en/function.json-encode.php
+
 The generated JSON object will adopt the following conventions:
 * If a folder contains only files (without subfolders), they will be listed as items of a single array.
 * If a folder contains one or more subfolders, each one will be listed as a key/value array.
@@ -73,7 +76,4 @@ http://php.net/manual/en/json.constants.php
 ```
  > php dir2json ./images out.json JSON_PRETTY_PRINT
 ```
-
-The json conversion is handled by the native php `json_encode` function (available in PHP 5 >= 5.2.0, PECL json >= 1.2.0, PHP 7). For further info on PHP's json_encode function, read here:
-http://php.net/manual/en/function.json-encode.php
 
