@@ -1,5 +1,5 @@
 # dir2json
-A PHP CLI script to ouput the contents of a whole directory tree to a JSON object
+A PHP CLI script to ouput the contents of a whole directory tree to a JSON object.
 
 *by Ryan, 2015*  
 http://www.ryadel.com/
