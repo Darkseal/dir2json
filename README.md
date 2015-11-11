@@ -77,3 +77,6 @@ http://php.net/manual/en/json.constants.php
  > php dir2json ./images out.json JSON_PRETTY_PRINT
 ```
 
+## Useful Links
+* [dir2json project page on Ryadel.com](http://www.ryadel.com/dir2json-a-php-cli-script-to-output-the-contents-of-a-folder-tree-into-a-json-object/)
+* [dir2json article, explaining how it works](http://www.ryadel.com/en/portfolio/dir2json-en/)
