@@ -1,7 +1,8 @@
 # dir2json
 A PHP CLI script to ouput the contents of a whole directory tree to a JSON object
 
-by Ryan, 2015  
+*by Ryan, 2015*  
+*http://www.ryadel.com/*
 * [Project Page](http://www.ryadel.com/en/portfolio/dir2json-en/)
 * [Documentation & info](http://www.ryadel.com/dir2json-a-php-cli-script-to-output-the-contents-of-a-folder-tree-into-a-json-object/)
 
